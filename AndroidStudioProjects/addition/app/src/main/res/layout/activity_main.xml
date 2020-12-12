@@ -1,0 +1,37 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#A0ABF1"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:text="Enter first number"
+        android:textColor="#011B1E"
+        android:textSize="50px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/no1"
+        android:inputType="number"
+        android:textColor="#011B1E"
+        android:textSize="50px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:text="Enter second number"
+        android:textColor="#011B1E"
+        android:textSize="50px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/no2"
+        android:inputType="number"
+        android:textColor="#011B1E"
+        android:textSize="50px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:text="ADD"
+        android:onClick="addevent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
